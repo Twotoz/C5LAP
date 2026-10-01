@@ -17,12 +17,16 @@
 
 **C5LAP** is an early-stage project exploring an ESP32-C5-based lap timer for analog 5.8 GHz FPV racing. It builds on the experience and RF research from [C5VRX](https://github.com/Twotoz/C5VRX), applying that knowledge to detecting passes and measuring lap times.
 
+## Planned setup
+
+Connect C5LAP to a laptop via **USB-C** and control it through a **web UI**. The goal is to manage receiver settings, race sessions, and live lap times from one browser interface. The USB communication and browser integration will be researched before implementation.
+
 ## Research first, then build
 
-This repository starts as a home for research, experiments, and design notes. The hardware, detection method, and firmware architecture are still to be determined.
+This repository starts as a home for research, experiments, and design notes. The RF hardware, detection method, and firmware architecture are still to be determined.
 
-1. **Research:** Explore the ESP32-C5 RF capabilities, signal measurements, and reliable pass detection.
-2. **Prototype:** Build and test the hardware and firmware based on the findings.
+1. **Research:** Explore the ESP32-C5 RF capabilities, signal measurements, reliable pass detection, and USB-to-browser communication.
+2. **Prototype:** Build and test the hardware, firmware, and web UI based on the findings.
 3. **Validate:** Test timing accuracy, repeatability, and behavior in real racing conditions.
 
 **Current status: research phase.** There is no working lap timer or ready-to-flash firmware yet.
